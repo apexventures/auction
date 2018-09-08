@@ -1,0 +1,28 @@
+.Footer.container-fluid {
+    background-color: rgba(0,0,0,0.8);
+    min-height: 40px;
+    margin-top: 70px;
+    overflow: hidden;
+}
+.footer-content-area h4 {
+    
+    font-size: 14px;
+    font-weight: 400;
+}
+.footer-content-area h4 a{
+    color: #fff;
+}
+.footer-content-area h4:hover a {
+    color: #e74e3e;
+    text-decoration: none;
+}
+.footer-content-area h4:hover i {
+    color: #fff;
+}
+.footer-content-area h4 i {
+    color: #e74e3e;
+    font-size: 13px;
+}
+.Footer.container-fluid .chatBox {
+    display: none;
+}

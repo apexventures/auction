@@ -1,0 +1,10 @@
+table.userBids {
+    margin-top: 70px;
+}
+table.userBids tbody tr td a {
+    color: #000;
+    text-decoration: none;
+}
+table.userBids tbody tr td a:hover {
+    color: #e74e3e;
+}

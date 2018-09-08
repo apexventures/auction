@@ -1,0 +1,119 @@
+@import '~antd/dist/antd.css';
+
+
+::selection, ::-moz-selection {
+  color: #fff;
+  background: #e74e3e;
+}
+
+.main-page .PageContent {
+  min-height: 100vh;
+}
+
+.main-page ul {
+  margin: 0;
+  padding: 0;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+.navbar-collapse.collapse ul.nav.navbar-nav.navbar-right li.dropdown span.caret {
+  display: none;
+}
+.accountType {
+  text-align: center;
+  margin: 40px 0 0 0;
+}
+
+form.sign-up-component,
+form.sign-in-component,
+form.add-item-component {
+  padding: 0 40px;
+}
+form.sign-up-component input,
+form.sign-in-component input,
+form.add-item-component input {
+  display: block;
+  width: 100%;
+  font-size: 12px;
+  padding: 5px 10px;
+  margin: 10px 0;
+  border-radius: 0;
+  border: 1px solid #ddd;
+}
+
+form.sign-up-component input.error,
+form.sign-in-component input.error,
+form.add-item-component input.error {
+  border-color: #e74e3e;
+}
+form.sign-up-component select,
+form.add-item-component select {
+  width: 100%;
+  border-radius: 0;
+  border: 1px solid #ddd;
+}
+form.sign-up-component button,
+form.sign-in-component button,
+form.add-item-component button {
+  display: block;
+  width: 100%;
+  appearance: none;
+  border-radius: 0;
+  background-color: #e74e3e;
+  color: #fff;
+  border: none;
+  font-size: 16px;
+  height: 40px;
+  margin-top: 30px;
+}
+
+form.sign-up-component button:hover,
+form.sign-in-component button:hover,
+form.add-item-component button:hover {
+  background-color: #d84332;
+}
+
+form.sign-up-component button:disabled,
+form.sign-in-component button:disabled,
+form.add-item-component button:disabled {
+  background-color: #e74e3e;
+  color: #fff;
+}
+form.sign-up-component button:disabled:hover,
+form.sign-in-component button:disabled:hover,
+form.add-item-component button:disabled:hover {
+  background-color: #d84332;
+}
+
+/* ************* Pagination ************* */
+.paginate {
+  text-align: center;
+}
+.paginate ul {
+  list-style: none;
+}
+.paginate ul li {
+  display: inline-block;
+  padding: 4px;
+  margin: 0 10px;
+  cursor: pointer;
+  width: 30px;
+  height: 30px;
+  border: solid 1px #ddd;
+}
+.paginate ul li:hover {
+  border-color: #e74e3e;
+  color: #e74e3e;
+}
+
+.header ul.nav.navbar-nav.navbar-right li.dropdown a span.ant-avatar.active {
+  background-color: #87d068;
+}
+
+/* ************* Notification ************* */
+.ant-notification-notice-message {
+  color: #e74e3e;
+}

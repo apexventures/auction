@@ -1,0 +1,74 @@
+.adminProfileTable tbody tr td {
+    text-align: left;
+}
+.adminProfileTable tbody tr td input {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: solid 1px #000000;
+    background-color: transparent;
+}
+.adminProfileTable tbody tr td button {
+    border: none;
+    padding: 0;
+    background-color: transparent;
+}
+.adminProfileTable tbody tr td button:hover {
+    color: #e74e3e;
+}
+.adminProfileTable tbody tr td .ant-switch-checked {
+    background-color: #e74e3e;
+}
+.adminProfileTable tbody tr td input.name {
+    max-width: 65px;
+}
+.adminProfileTable tbody tr td input.email {
+    max-width: 125px;
+}
+.adminProfileTable tbody tr td input.gender {
+    max-width: 48px;
+}
+.adminProfileTable tbody tr td input.phone {
+    max-width: 100px;
+}
+.confirmBox .modal-content {
+    width: 50%;
+    margin: auto;
+}
+.confirmBox .modal-content .modal-body {
+    background-color: transparent !important;
+}
+.confirmBox .modal-content .modal-body h4 {
+    font-size: 15px;
+}
+.confirmBox .modal-content .modal-footer button {
+    float: right;
+    margin-right: 10px;
+    background-color: transparent;
+    padding: 5px 7px;
+}
+.confirmBox .modal-content .modal-footer button.delete {
+    color: #e74e3e;
+}
+.confirmBox .modal-content .modal-footer button.delete:hover {
+    background-color: #e74e3e;
+    border-color: #e74e3e;
+    color: #fff;
+}
+.confirmBox .modal-content .modal-footer button.cancel:hover  {
+    color :#096dd9;
+    border-color: #096dd9;
+}
+.profile .Pages_title.cpt {
+    margin-bottom: 70px;
+}
+.profile .user .container .table-responsive {
+    width: 40%;
+}
+.profile .user .container .table-responsive table {
+    text-align: right;
+}
+.signupform, 
+.signinform {
+    margin-top: 70px;
+}

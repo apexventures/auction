@@ -1,0 +1,19 @@
+.signupform,
+.signinform {
+    width: 50%;
+    max-width: 1170px;
+    margin: 0px auto;
+}
+.signupform p.errorMsg,
+.signinform p.errorMsg {
+    margin: 10px 0px;
+    color: #e74e3e;
+}
+.signupform .userformlink,
+.signinform .userformlink {
+    margin-top: 10px;
+}
+.signupform .userformlink a,
+.signinform .userformlink a {
+    color: #e74e3e;
+}

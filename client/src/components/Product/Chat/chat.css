@@ -1,0 +1,121 @@
+.chatBox {
+    position: fixed;
+    bottom: 0;
+    right: 110px;
+    z-index: 9;
+}
+.listOfUser .chatBox {
+    right: 230px;
+}
+.chatBox.true {
+    width: 286px;
+}
+.chatBox.false {
+    width: 172px;
+}
+.chatBox .chatBox-header {
+    background-color: #fafafa;
+    border: solid 1px #d9d9d9;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.chatBox.true .collapsible {
+    width: 93.5%;
+}
+.chatBox.false .collapsible {
+    width: 89%;
+}
+.chatBox .collapsible {
+    cursor: pointer;
+    display: block;
+    padding: 5px 10px;
+    font-size: 11px;
+    overflow: hidden;
+    height: 25px;
+}
+.chatBox .content {
+    padding: 0;
+    display: none;
+    overflow: hidden;
+}
+.chatBox .content.true {
+    display: block;
+}
+.chatBox .messages {
+    height: 250px;
+    overflow: scroll;
+    padding: 5px 10px 0 10px;
+    background-color: #f1f1f1;
+}
+.chatBox .footer {
+    background-color: #fafafa;
+    padding: 5px;
+}
+.chatBox .footer input {
+    width: 85%;
+    margin: 0 auto;
+    display: block;
+    border-radius: 15px;
+    padding: 3px 10px;
+    border: solid 1px;
+}
+/* ******************************************************************************* */
+
+.chatBox .content .messages .msg-cont {
+    width: 100%;
+    min-height: 28px;
+    overflow: hidden;
+}
+.chatBox .content .messages .msg-cont .receiver {
+    /* background-color:#2499fe #e6e5ea; */
+    background-color:#47b7fb;
+    float: left;
+    min-width: 30%;
+    margin: 2px 0;
+    min-height: 22px;
+    border-radius: 8px;
+    padding: 2px 10px 5px 10px;
+    max-width: 90%;
+    line-height: 16px;
+}
+.chatBox .content .messages .msg-cont .sender {
+    background-color: #63cd49;
+    float: right;
+    min-width: 30%;
+    margin: 2px 0;
+    min-height: 22px;
+    border-radius: 8px;
+    padding: 2px 10px 5px 10px;
+    max-width: 90%;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: 12px;
+    line-height: 16px;
+}
+.listOfUser span.sender-name {
+    margin-left: 10px;
+}
+.listOfUser .sender {
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+.listOfUser .senders {
+    position: fixed;
+    right: 20px;
+    height: 72vh;
+    overflow: scroll;
+}
+.chatBox .chatBox-header i.anticon.anticon-close {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    padding: 7px 5px 5px 0px;
+    cursor: not-allowed;
+}
+.detail-page .listOfUser .senders .ant-avatar {
+    background-color: #87d068;
+}
+.chatBox .content .messages-container.messages .hiddenDiv {
+    float: left;
+    clear: both;
+}

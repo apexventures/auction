@@ -1,0 +1,70 @@
+.ant-carousel .slick-slide {
+  text-align: center;
+  height: 160px;
+  line-height: 160px;
+  background-color: #364d79;
+  overflow: hidden;
+}
+.ant-carousel .slick-slide h3 {
+  color: #fff;
+}
+.ant-carousel .slick-slide img {
+  width: 100% !important;
+}
+.ant-carousel .slick-slide {
+  height: 350px;
+}
+.ant-carousel .slick-slide div,
+.ant-carousel .slick-slide img {
+  height: 100% !important;
+}
+.Home.container .container.products-container {
+  width: 100%;
+  padding: 0;
+}
+
+
+
+/* ************************************************** */
+
+#chat-button {
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  height: 60px;
+  width: 60px;
+}
+.PageContent .Home.container-fluid {
+  padding: 0;
+}
+
+
+.Home.container-fluid .products-container h2,
+.Home.container-fluid .products-container hr,
+.Home.container-fluid .products-container .paginate {
+  display: none;
+}
+.Home.container-fluid .products-container .products {
+  height: 460px;
+}
+
+/* ***************************** Services ***************************** */
+.services.container {
+  margin: 50px auto;
+}
+.services.container .service {
+  text-align: center;
+}
+.services.container .service .service_icon i {
+  font-size: 40px;
+  background-color: transparent;
+  padding: 15px;
+  border-radius: 50%;
+}
+.services.container .service:hover .service_icon i {
+  background-color: #e74e3e;
+  color: #fff;
+}
+.services.container .service:hover .title h3 {
+  color: #e74e3e;
+}

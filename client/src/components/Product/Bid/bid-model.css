@@ -1,0 +1,107 @@
+.modal-dialog .modal-content .modal-footer,
+.modal-dialog .modal-content .modal-title {
+    text-align: left;
+    border: none;
+}
+.modal-dialog .modal-content .modal-footer p {
+    margin: 0;
+    font-size: 12px;
+}
+.modal-dialog .modal-content .modal-title span {
+    font-size: 11px;
+    margin-left: 10px;
+}
+.modal-dialog .modal-content .modal-title {
+    font-size: 24px;
+}
+.modal-dialog .modal-content .modal-header {
+    padding-bottom: 0px;
+    border: none;
+}
+.modal-dialog .modal-content .modal-header p {
+    font-size: 11px;
+    margin-top: 15px;
+}
+.modal-dialog .modal-content .modal-body {
+    background-color: #f7f7f7;
+}
+
+.modal-dialog .modal-content .modal-body button {
+    height: 38px;
+    width: 190px;
+    background: #0067ae;
+}
+.modal-dialog .modal-content .modal-body input {
+    width: 60%;
+    height: 38px;
+}
+.modal-dialog .modal-content h3 {
+    color: #e74e3e;
+    border-bottom: solid 1px #ccc;
+    border-top: solid 1px #ccc;
+    padding: 10px;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+
+/* ************************** Bid History ****************************** */
+
+.bid-history .container.back-button button {
+    margin-top: 20px;
+    border: solid 1px #ddd;
+    background-color: transparent;
+    color: #000;
+    padding: 5px 10px;
+}
+.PageContent .bid-history .container.back-button button:hover {
+    color: #e74e3e;
+    border-color: #e74e3e;
+}
+
+.bidHistoryContainer {
+    width: 60%;
+    border: solid 1px #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 70px;
+}
+.bidHistoryContainer p {
+    font-size: 12px;
+}
+.bidHistoryContainer table.bidTable {
+    width: 100%;
+    margin: 40px 0;
+}
+.bidHistoryContainer table.bidTable tr th,
+.bidHistoryContainer table.bidTable tr td {
+    border-bottom: solid 1px #ccc;
+}
+.bidHistoryContainer table.bidTable .startingBid td:first-child {
+    color: #999999;
+    font-weight: bold;
+}
+.ant-alert.ant-alert-success.ant-alert-no-icon .topBidder {
+    margin: 0;
+    position: relative;
+}
+.ant-alert.ant-alert-success.ant-alert-no-icon .topBidder i {
+    margin-right: 15px;
+    color: #b7eb8f;
+}
+.disabledinput {
+    background-color: #f6ffed;
+    border: solid 2px #b7eb8f;
+    margin-right: 5px;
+    color: #000;
+    padding: 3px;
+}
+.detail-page .bidingContainer .ant-input.inputdp {
+    width: 50%;
+    margin-right: 5px;
+} 
+
+.detail-page .bidingContainer .ant-input.ant-input-disabled.disabledinput{
+    width: 60%;
+    margin-right: 5px;
+}

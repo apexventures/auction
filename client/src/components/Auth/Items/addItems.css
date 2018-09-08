@@ -1,0 +1,58 @@
+.imageBrowseButton {
+    width: 100px;
+    border-radius: 0px;
+    background-color: rgb(102, 149, 9);
+    display: block;
+    padding: 10px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+.textareaField{
+    width: 100%;
+    display: block;
+    min-height: 100px;
+}
+.product-history .Pages_title.cpt,
+.add-product .Pages_title.cpt {
+    margin-bottom: 70px;
+}
+
+.product-history .container .add-button {
+    margin: 0 0 30px 0;
+} 
+.product-history .container .add-button button:hover {
+    color: #e74e3e;
+    border-color: #e74e3e;
+}
+.product-history .table-responsive table tr td a {
+    color: #000;
+    text-decoration: none;
+}
+.product-history .table-responsive table tr td a:hover {
+    color: #e74e3e;
+}
+.add-item-component {
+    width: 50%;
+    margin: 0 auto;
+}
+.add-item-component div label {
+    width: 100%;
+    margin-bottom: 0;
+}
+.add-item-component div input,
+.add-item-component div textarea {
+    margin-top: 0 !important;
+    margin-bottom: 20px !important;
+}
+.add-item-component div.bidtime span div input {
+    margin-bottom: 0 !important;
+}
+.add-item-component .imageInput {
+    margin-top: 20px;
+}
+.add-item-component div.bidtime span.ant-calendar-picker {
+    width: 100%;
+}
+.add-item-component div textarea {
+    border: solid 1px #ddd;
+}

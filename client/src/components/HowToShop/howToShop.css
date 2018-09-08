@@ -1,0 +1,79 @@
+.howtoshop .htimage,
+.howtoshop .httext {
+    width: 50%;
+    min-height: 400px;
+    overflow: hidden;
+    position: relative;
+}
+.howtoshop .ht:nth-child(1) {
+    background: #5c4086 url("../../images/howtoshop/how_to_shop_01.png") no-repeat right 70px center;
+    float: left;
+}
+.howtoshop .ht:nth-child(2) {
+    float: right;
+}
+.howtoshop .ht:nth-child(3) {
+    background: #f8436e url("../../images/howtoshop/how_to_shop_02.png") no-repeat left 70px center;
+    float: right;
+}
+.howtoshop .ht:nth-child(4) {
+    float: left;
+}
+.howtoshop .ht:nth-child(5) {
+    background: #077be6 url("../../images/howtoshop/how_to_shop_03.png") no-repeat right 70px center;
+    float: left;
+}
+.howtoshop .ht:nth-child(6) {
+    float: right;
+}
+
+
+.howtoshop .httext .text h2 {
+    font-weight: bold;
+}
+.howtoshop .httext .text h2::after {
+    content: '';
+    width: 150px;
+    height: 3px;
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+.howtoshop .ht:nth-child(2) .text h2::after {
+    background-color: #5c4086;
+}
+.howtoshop .ht:nth-child(4) .text h2::after {
+    background-color: #f8436e;
+}
+.howtoshop .ht:nth-child(6) .text h2::after {
+    background-color: #077be6;
+}
+.howtoshop .httext .text {
+    width: 516px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.howtoshop .httext .text p {
+    font-size: 15px;
+    color: #000;
+    margin-bottom: 40px;
+}
+.howtoshop .httext .text button {
+    border-radius: 0;
+    border: solid 1px #ddd;
+    background-color: transparent;
+    padding: 5px 10px;
+    /* transition: 0.25s; */
+}
+.howtoshop .httext .text button:hover {
+    border-color: #e74e3e;
+    color: #e74e3e;
+}
+.howtoshop .ht:nth-child(4) .text {
+    right: 50px;
+}
+.howtoshop .ht:nth-child(2) .text,
+.howtoshop .ht:nth-child(6) .text {
+    left: 50px;
+}
