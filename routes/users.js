@@ -44,7 +44,7 @@ router.post('/signup', (req, res) => {
 				role: 'member',		//member
 				phone: req.body.phone,
 				gender: req.body.gender,
-				isActive: false,
+				isActive: true,
 				creationData: date,
 				updateDate: date,
 				accountType: req.body.accountType

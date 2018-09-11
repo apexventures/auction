@@ -9,14 +9,15 @@ const cors = require('cors');
 const fileUpload = require('express-fileupload');
 
 // import routes files
-var indexRouter = require('./routes/index');
+// var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
 var productRouter = require('./routes/products');
 var bidRouter = require('./routes/bid');
 var chatRouter = require('./routes/chat');
 
 // Database connection
-mongoose.connect('mongodb://127.0.0.1:27017/auction');
+mongoose.connect('mongodb://auction:auction123@ds251022.mlab.com:51022/auction')
+// mongoose.connect('mongodb://127.0.0.1:27017/auction');
 
 var app = express();
 // For Socket.io
@@ -40,7 +41,7 @@ app.use(express.static('public/images'));
 app.use(express.static(path.join(__dirname, 'public')));
 
 
-app.use('/', indexRouter);
+// app.use('/', indexRouter);
 app.use('/users', usersRouter);
 app.use('/product', productRouter);
 app.use('/bid', bidRouter);
@@ -60,7 +61,7 @@ if(process.env.NODE_ENV === 'production') {
 
 
 
-// catch 404 and forward to error handler
+// catch 404 and forward to error handler 
 app.use(function(req, res, next) {
   next(createError(404));
 });
