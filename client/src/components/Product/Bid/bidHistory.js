@@ -29,7 +29,7 @@ class BidHistory extends Component {
     const pId = {
       productId: this.props.match.params.productId
     }
-    fetch('http://localhost:8812/product/product-detail', {
+    fetch('/product/product-detail', {
       method: 'POST',
       headers: {
         'content-type': 'application/json'
@@ -47,7 +47,7 @@ class BidHistory extends Component {
     const formData = {
       productId: this.props.match.params.productId
     }
-    fetch('http://localhost:8812/bid/pdt-biddata-getdata', {
+    fetch('/bid/pdt-biddata-getdata', {
       method: 'POST',
       headers: {
         'content-type': 'application/json'

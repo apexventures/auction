@@ -106,7 +106,7 @@ class BidModel extends Component {
       user_id: store.getState().authentication.userId,
       userDetails: store.getState().authentication.userDetails
     }
-    fetch('http://localhost:8812/bid/pdt-biddata', {
+    fetch('/bid/pdt-biddata', {
       method: 'POST',
       headers: {
         'content-type': 'application/json'
@@ -177,7 +177,7 @@ class BidModel extends Component {
     const formData = {
       productId: this.props.productId
     }
-    fetch('http://localhost:8812/bid/pdt-biddata-getdata', {
+    fetch('/bid/pdt-biddata-getdata', {
       method: 'POST',
       headers: {
         'content-type': 'application/json'
@@ -227,7 +227,7 @@ class BidModel extends Component {
       productId: this.props.productId,
       currentBid: this.state.currentBid
     };
-    fetch('http://localhost:8812/bid/pdt-get-current-bid-data', {
+    fetch('/bid/pdt-get-current-bid-data', {
       method: 'POST',
       headers: {
         'content-type':'application/json'

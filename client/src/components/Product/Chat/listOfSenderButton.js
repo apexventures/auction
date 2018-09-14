@@ -24,7 +24,7 @@ class ListOfSenderButton extends Component {
     
     gettingListofSender = ()=>{
         let data = { productId: this.props.productId };
-        fetch('http://localhost:8812/chat/find-all-sender-ids', {
+        fetch('/chat/find-all-sender-ids', {
             method: 'POST',
             headers:{
                 'content-type': 'application/json'
@@ -101,7 +101,7 @@ class ListOfSenderButton extends Component {
 
     gettingListofSenderDetails = (id)=>{
         let data = { userList: id };
-        fetch('http://localhost:8812/users/get-senders-detail', {
+        fetch('/users/get-senders-detail', {
             method: 'POST',
             headers:{
                 'content-type':'application/json'
@@ -142,7 +142,7 @@ class ListOfSenderButton extends Component {
           logedinUserId: this.props.userIdRedux,
           productOwnerId: id
         };
-        fetch('http://localhost:8812/chat/getChat', {
+        fetch('/chat/getChat', {
           method:'POST',
           headers:{
             'content-type': 'application/json'

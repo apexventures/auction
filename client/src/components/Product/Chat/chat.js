@@ -52,7 +52,7 @@ class Chat extends Component {
     let receiverId = {
       receiverId: this.props.receiver
     };
-    fetch('http://localhost:8812/users/receiver-socket-id', {
+    fetch('/users/receiver-socket-id', {
       method: 'POST',
       headers:{
         'content-type': 'application/json'
@@ -96,7 +96,7 @@ class Chat extends Component {
       receiverId: this.props.receiver,
       status: 'sent'
     };
-    fetch('http://localhost:8812/chat/saveChat', {
+    fetch('/chat/saveChat', {
       method: 'POST',
       headers:{
         'content-type': 'application/json'
