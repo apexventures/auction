@@ -24,7 +24,7 @@ class BidModel extends Component {
       bids: ''
     };
 
-    this.socket = socketIOClient('http://localhost:8812');
+    this.socket = socketIOClient('/');
     // socket.io  **************************************************************
     this.socket.on('changeBid', (updateBid) => {
       if(updateBid.productId === this.props.productId) {

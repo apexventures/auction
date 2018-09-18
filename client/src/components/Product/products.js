@@ -62,7 +62,7 @@ class Products extends Component {
               currentItems.map(product => {
                 return(
                   <div key={product._id} className='product col-lg-3 col-md-4 col-sm-6 col-xs-6'>
-                    <Link to={`product/${product._id}`}> <img className='product-image' src={`../../public/images/${product.productImg}`} alt={product.productImg} />
+                    <Link to={`product/${product._id}`}> <img className='product-image' src={`/${product.productImg}`} alt={product.productImg} />
                     <h4 className='product-title'> {product.title} </h4> </Link>
                     <p className='product-discription'>{product.discription}</p>
                     <h5 className='product-price'><span>Current bid </span>${product.currentBid}</h5>

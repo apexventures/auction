@@ -49,7 +49,7 @@ class DetailPage extends Component {
         <PageTitle title={this.state.product.title} />
         <div className='container detail-page'>
           <div className='col-sm-5 image'>
-            <img src={`http://localhost:8812/${this.state.product.productImg}`} alt={this.state.product.title} />
+            <img src={`/${this.state.product.productImg}`} alt={this.state.product.title} />
           </div>
           <div className='col-sm-4'>
             <h3>{this.state.product.title}</h3>
