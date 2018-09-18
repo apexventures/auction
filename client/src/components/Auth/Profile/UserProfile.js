@@ -94,7 +94,7 @@ class UserProfile extends Component {
 		return(
 			<div className='profile'>
 				
-				{ Object.getOwnPropertyNames(user).length !== 0 ? <Profile user={user}/> : null }
+				{ Object.getOwnPropertyNames(user).length !== 0 ? <Profile user={user} profileLoad={this.profileLoad} /> : null }
 
 				{ users.length !== 0 ? <AdminProfile users={users} profileLoad={this.profileLoad} /> : null }
 

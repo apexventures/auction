@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import {Icon} from 'antd';
 import './footer.css';
 
 class Footer extends Component {
@@ -7,7 +6,7 @@ class Footer extends Component {
     return (
       <div className="Footer container-fluid">
         <div className='footer-content-area container'>
-            <h4><a href='http://www.erudite.pk/'>erudite</a> <Icon type="heart" /></h4>
+            <h4><a href='http://www.erudite.pk/'>Powered by ERUDITE</a></h4>
         </div>
       </div>
     )

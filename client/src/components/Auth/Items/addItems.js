@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { DatePicker } from 'antd';
+import { DatePicker, Alert } from 'antd';
 import { Redirect } from 'react-router-dom';
 import store from '../../../store';
 import './addItems.css';
@@ -16,7 +16,8 @@ class AddItems extends Component {
       discription: '',
       price: '',
       bidEndTime: '',
-      productImg: ''
+      productImg: '',
+      visible: false
     };
   }
 
@@ -55,10 +56,14 @@ class AddItems extends Component {
     })
     .then(res => {
       if(res.status === 200) {
-        this.setState({ title: '', discription: '', price: '', productImg: '', bidEndTime: '' });
+        this.setState({ title: '', discription: '', price: '', productImg: '', bidEndTime: '', visible: true });
       }
     })
     .catch(err => console.log(err));
+  }
+
+  handleClose = () => {
+    this.setState({ visible: false });
   }
 
     
@@ -76,6 +81,16 @@ class AddItems extends Component {
       <div className='add-product'>
         <PageTitle title='Add Product' />
         <div className='container'>
+          {
+            this.state.visible ? (
+              <Alert
+                message="The product is added successfully"
+                type="success"
+                closable
+                afterClose={this.handleClose}
+              />
+            ) : null
+          }
           <form className='add-item-component'>
               <div>
                   <label>Product Title</label>

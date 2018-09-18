@@ -72,3 +72,28 @@
 .signinform {
     margin-top: 70px;
 }
+
+.uphd24 {
+    width: 40%;
+}
+.uphd24 h2.profile {
+    display: inline-block;
+}
+.uphd24 button.editbtn {
+    float: right;
+    margin-top: 20px;
+}
+.user-data {
+    margin-top: 30px;
+}
+
+
+.profileEditeModel .ant-modal-body .edp1 {
+    margin-bottom: 15px;
+}
+
+.profileEditeModel .ant-modal-body .edp1 input,
+.profileEditeModel .ant-modal-body .edp1 select {
+    width: 200px;
+    float: right;
+}

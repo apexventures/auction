@@ -17,6 +17,24 @@
     top: 0;
     background-color: rgba(0,0,0,0.9);
 }
+.header nav.navbar .navbar-header {
+    margin-left: 15px;
+}
+.header nav.navbar .navbar-header a{
+    padding: 0;
+    height: auto;
+}
+.header nav.normal.navbar .navbar-header a img {
+    width: 185px;
+    transition: 0.65s;
+}
+.header nav.sticky.navbar .navbar-header a img {
+    width: 155px;
+    transition: 0.65s;
+}
+
+
+
 .header ul.nav.navbar-nav li span {
     color: #000;
 }

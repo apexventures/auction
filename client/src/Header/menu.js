@@ -5,6 +5,7 @@ import { connect } from 'react-redux';
 import { Avatar } from 'antd';
 import store from '../store';
 import { AUTHENTICATION, ROLE } from '../actions/types';
+import logo from '../images/logo/auction.jpg';
 
 class Menu extends Component {
 
@@ -67,7 +68,7 @@ class Menu extends Component {
             <Navbar collapseOnSelect className={`${this.state.sticky}`}>
                 <Navbar.Header>
                     <Navbar.Brand>
-                        <Link to="/">Auction</Link>
+                        <Link to="/"><img src={logo} alt='auction' /></Link>
                     </Navbar.Brand>
                     <Navbar.Toggle />
                 </Navbar.Header>
